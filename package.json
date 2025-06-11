@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "PORT=8000 next dev --turbopack",
+    "dev": "cross-env PORT=8000 next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -39,6 +39,7 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cmdk": "^1.1.1",
+    "cross-env": "^7.0.3",
     "date-fns": "^3.6.0",
     "embla-carousel-react": "^8.6.0",
     "file-saver": "^2.0.5",
